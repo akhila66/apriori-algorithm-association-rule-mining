@@ -2,6 +2,12 @@
 apriori algorithm association rule mining implementation 
 
 
+We can see the difference. As we increase support frequency no of False + and False – are decreasing. Since accuracy is increasing. 
+
+
+Note that the analysis is not only to report the results you obtained, but also, very importantly, to explain why you get such results (e.g. “The Simple Randomized algorithm takes longer when the sample size increases” or “Apriori requires 15% more time than the Simple Randomized algorithm does” is not a complete analysis; you need to explain why these occur, which requires you to have a deep understanding of how the two algorithms work). See the reference list at the end of this homework assignment for a reference on the Simple Randomized algorithm. 
+
+
 http://web.cse.ohio-state.edu/dmrl/papers/ride97.pdf (Reference Paper)
 
 As we can see for all support frequency and for different sampled data it is taking almost same execution time. And we can also say that it is taking less time to execute as we take less probability of data. If we are getting same approximate rules with more accuracy it’s preferred to take sampled data instead of full 100 % data. This can help to improve out algorithm performance without losing any accuracy.
